@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Coffee.sol": "Coffe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Coffee.sol": {
+			"keccak256": "0x6c9b8696a0d82474e3b6a6cd32fcae57db1d23ef009e7b70316822104c5ba8b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb8c3a4b3b6aa33f347169b108bb4d76ddfab82257e35aa5bbc6ad582a74a078",
+				"dweb:/ipfs/QmSFDFhLQx5Xhq6yxFuH45Qt4f9zUb5CMBGpk7BGS6qyqL"
+			]
+		}
+	},
+	"version": 1
+}
