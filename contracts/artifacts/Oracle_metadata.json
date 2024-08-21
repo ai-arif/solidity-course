@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_pair",
+						"type": "string"
+					}
+				],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/OraclePattern.sol": "Oracle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/OraclePattern.sol": {
+			"keccak256": "0xb17c8e66eaf9dd9c9a66ad7bd4f274a7d961dd00f9529e10138c71ee74b16593",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61ba140d4a4e6f6b74ec859ac4c605efb6bcfb08595741f4b19d9cfc01d4723e",
+				"dweb:/ipfs/QmbdRZcs3DtEcBR8fptRkJp72Cvkqg98gXuEes2ZYFZpZp"
+			]
+		}
+	},
+	"version": 1
+}
