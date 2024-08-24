@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"security/ReentrancyGuard.sol": "SecureContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"security/ReentrancyGuard.sol": {
+			"keccak256": "0x48c17b9d0defbc8d7cb40a1eb58c666a396def5e18812f05430129b74f24661f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8b34ee183dc251003340335044f2fcaca54ae51e252f47256c69790d6d0e1c49",
+				"dweb:/ipfs/QmQKR4DbpTy4LTBwbaKhBUbGdneqBzBKEBXe3jKMVZUhaY"
+			]
+		}
+	},
+	"version": 1
+}
