@@ -33,7 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "totalSupply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -48,7 +48,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
@@ -71,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"security/ReentrancyExample.sol": "SecureBank"
+			"security/ErrorHandle.sol": "SecureBank"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -85,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"security/ReentrancyExample.sol": {
-			"keccak256": "0x727a8c909961ec6a05d4fe20299ae79694077fb4ab172a35d95fbd9cc26ba4e5",
+		"security/ErrorHandle.sol": {
+			"keccak256": "0x393ec205909fafa83fc1cb4351f3f67fd77c76ea8481a8b5e55bf8cd988a2dfb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://88f924cbf6902a40d4508a95945794d3a94457a1773b5e0c39aa1a60269e179d",
-				"dweb:/ipfs/QmWLGYY7fopFzmhPwWFMXSawoKpCWCjzCnjmiE5VWUgkWB"
+				"bzz-raw://adc8416a5a279c58650cce692cacea78709dd3c38bbf469036ce7ef87cfd0f7b",
+				"dweb:/ipfs/QmUuj55JrPWyDRidMRLZWWBFnDneDRQ5VB3o5862q62nah"
 			]
 		}
 	},
