@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accessTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_extension",
+						"type": "uint256"
+					}
+				],
+				"name": "extendAccess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"security/Access Control & Role Management/TimeBasedAccess.sol": "TimedAccess"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"security/Access Control & Role Management/TimeBasedAccess.sol": {
+			"keccak256": "0x1b6cfe5ad255d71a15908d1ccfa05e3c9ffad693a79527cfc8f2c3e8212d6bf0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6cd6753abbb933be9adfe2c8cd273851acd234f44a818f21989861502e61f2ac",
+				"dweb:/ipfs/QmVK8KUhigUWdbRvLHfeJF1Hx7VGnsACY6JQbtgcD9ztZw"
+			]
+		}
+	},
+	"version": 1
+}

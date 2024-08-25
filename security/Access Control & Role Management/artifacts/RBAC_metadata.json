@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "roles",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"security/Access Control & Role Management/RBAC.sol": "RBAC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"security/Access Control & Role Management/RBAC.sol": {
+			"keccak256": "0x3857a5f86e3daa78e00ac3a332c9b1f9dd55bd3eccf4e2226bddede42b2f2510",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dda20413a0a5964ced81bdc7a5a6a17050c5e828f4c328d6a6c25bc9571bbdec",
+				"dweb:/ipfs/QmdTEJ9KoJrtCvNafSZxMGw7cLuvtn8BqyafiUH1ABU4dM"
+			]
+		}
+	},
+	"version": 1
+}

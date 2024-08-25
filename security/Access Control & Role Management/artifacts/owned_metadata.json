@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"security/Access Control & Role Management/BasicAccessControl.sol": "owned"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"security/Access Control & Role Management/BasicAccessControl.sol": {
+			"keccak256": "0xcfef9d35420857493108744e0317764e9a14b5a156f30ea70f9a96d7164006d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69e1730955867b2c23cb61fd15a26afa83e618c04f11ef1ad80b7bf6ac92a69f",
+				"dweb:/ipfs/QmcM8F5qW7YK1hBZ18ME49QSfUGivUi7G9zR5cUNiwKpy1"
+			]
+		}
+	},
+	"version": 1
+}
