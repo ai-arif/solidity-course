@@ -1,19 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "balances",
+				"inputs": [],
+				"name": "autionTime",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -26,16 +20,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "deposit",
+				"name": "bid",
 				"outputs": [],
 				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdraw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/WithdrawlPattern.sol": "Withdrawal"
+			"security/CommonVulnerability.sol": "TimeAuction"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -66,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/WithdrawlPattern.sol": {
-			"keccak256": "0x638ef8065fd9417f08a5da194addf9e040c7f259ef80fdcd913eb4c54695249d",
+		"security/CommonVulnerability.sol": {
+			"keccak256": "0x53cbc47a13b86ed1045837d5c2c19caed9ec28df2d8f5d7b991a6fc0fb15425f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e748ee46d68586a0dea94e87932ca3518095a8ae35b230e75a55d00b54bc16de",
-				"dweb:/ipfs/QmPXXjgYy3ZCYovtw8nyUbBuiA2gPq1F7Z9anJ5rkyzzWM"
+				"bzz-raw://2be4d0310483913ce3c9d703911459fdf92884ef399c54a97bf99ba435fd5fd2",
+				"dweb:/ipfs/Qmb1LrJmBE6sa9nKudE7Jmm53EDtq42PHAaPfaeZeD68cn"
 			]
 		}
 	},

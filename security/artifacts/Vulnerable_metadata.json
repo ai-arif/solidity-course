@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "delegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"security/CommonVulnerability.sol": "Vulnerable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"security/CommonVulnerability.sol": {
+			"keccak256": "0x53cbc47a13b86ed1045837d5c2c19caed9ec28df2d8f5d7b991a6fc0fb15425f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2be4d0310483913ce3c9d703911459fdf92884ef399c54a97bf99ba435fd5fd2",
+				"dweb:/ipfs/Qmb1LrJmBE6sa9nKudE7Jmm53EDtq42PHAaPfaeZeD68cn"
+			]
+		}
+	},
+	"version": 1
+}
